@@ -2,7 +2,7 @@
 
 **1. Overview**
 
-Not long ago, I received a request from MOSCA Inc. to make it easy to update the firmware of multiple devices based on ESP32.
+Not long ago, I received a request from [MOSCA Inc.](http://www.mosca.asia/) to make it easy to update the firmware of multiple devices based on ESP32.
 I immediately thought of the OTA function in the ESP series, and started searching the Internet to find the functions and example source files needed for that function. But unfortunately, I couldn't find any example source files with the functions I wanted.
 
 The function I wanted was to compare the firmware binary file on the server as soon as the device boots up, and if it is newer than the current firmware, update the firmware and then reboot, otherwise go into the normal routine.
