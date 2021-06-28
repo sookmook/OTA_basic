@@ -10,7 +10,7 @@ The function I wanted was to compare the firmware binary file on the server as s
 To do that, I needed a function that could find out the creation time of a file on the server, but I couldn't find such a function no matter how much I searched through existing libraries. (Of course, even though such a function already exists, I may not have been able to find it, so if anyone knows of such a function, please contact me.)
 
 Basically, in order to use the OTA function, you need to download and install the related libraries in advance. And to save the current firmware creation time in the device, EEPROM memory in ESP32 is used. Be sure to obtain the library related to this. In this regard, refer to the names of the libraries at the beginning of the main source file, and use the 'Tools > Manage Libraries...' item from the menu in the Arduino IDE.
-![](file:./OTA_basic/Arduino_menu_ML.png)
+![](file:Arduino_menu_ML.png)
 
 Anyway, I made a simple PHP file to find the creation time of a file on the server. In that way, if you put this PHP file and the new firmware binary file on the server, it is configured so that all tasks can be solved simply. (It is recommended to set the permission to 755 when uploading the PHP file to the server, and set the permission for the firmware binary file to 744.)
 
@@ -34,7 +34,7 @@ sure! Before doing all this, you need to make some changes to the contents of th
 If you basically modified the two source files as described above, let's make your own code by modifying the contents of the setup() and loop() functions in earnest from now on. And let's make a binary file by selecting the 'Sketch > Export compiled Binary' item from the Arduino IDE menu.
 Lastly, please upload the otaCheck.php file and the firmware binary file to the specified path on the server.
 
-![](file:./OTA_basic/Arduino_menu_ECB.png)
+![](file:Arduino_menu_ECB.png)
 
 In the case of modifying the source file from now on, only the binary file of the modified source needs to be uploaded to the server.
 
