@@ -1,4 +1,4 @@
-> **Automatic updating system at boot via OTA for ESP32**
+> # Automatic updating system at boot via OTA for ESP32
 
 **1. Overview**
 
