@@ -18,15 +18,14 @@ Anyway, I made a simple PHP file to find the creation time of a file on the serv
 **2. Modification of source files**
 
 sure! Before doing all this, you need to make some changes to the contents of the source files. It is a very easy task. You just need to modify a few constants and a few variables.
-
-***OTA_basic.ino :*** Main source file for OTA implementation.
+* ****OTA_basic.ino :*** Main source file for OTA implementation.
 
 ***WIFI_CONNECT_SSID*** - SSID for wireless router connection.
 ***WIFI_CONNECT_PSWD*** - Password to connect to the wireless router.
 ***otaDirURL*** - The correct access path of the server where the firmware binary file is loaded.
 ***otaBinFilename*** - Firmware binary file name. (ex: OTA_basic.ino.esp32.bin)
 
-***otaCheck.php :*** Source file containing the file creation time check function to be uploaded to the server along with the firmware binary file.
+* ***otaCheck.php :*** Source file containing the file creation time check function to be uploaded to the server along with the firmware binary file.
 
 ***filename*** - Firmware binary file name with the same meaning as otaBinFilename described above.
 
