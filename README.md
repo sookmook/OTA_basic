@@ -44,7 +44,15 @@ In the case of modifying the source file from now on, only the binary file of th
 
 Good luck to you.
 
-**4. Links referenced in production**
+## 4. Copyright
+
+The copyright of the sources I put here is basically under the GPL 3.0 license. Therefore, it is possible to use it for personal use or education.
+
+However, if you want to distribute and distribute the sources for bug fixes or feature additions, or use them for commercial purposes, please contact me before discussing.
+
+I'm a lazy person who likes to play with a lot of misconceptions, so even if there is a request for adding a new function, it is quite uncertain whether it will be reflected through the version upgrade, but if you keep trying, you may hear it someday, so if you have a function you need, please ask for it. . Once again, if I make up my mind, I work hard and do well. Ha ha ha
+
+**5. Links referenced in production**
 
 *ESP32 Web Updater Over The Air (OTA) Programming In Arduino IDE*
 
