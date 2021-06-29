@@ -44,7 +44,7 @@ In the case of modifying the source file from now on, only the binary file of th
 
 Good luck to you.
 
-## 4. Copyright
+**4. Copyright**
 
 The copyright of the sources I put here is basically under the GPL 3.0 license. Therefore, it is possible to use it for personal use or education.
 
